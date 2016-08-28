@@ -1,0 +1,110 @@
+1>warnings in directory e:\duba
+1>e:\duba\hookkifastcall.h(2) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+1>e:\duba\hookkifastcall.h(3) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+1>e:\duba\hookkifastcall.h(4) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+1>e:\duba\hookkifastcall.c(368) : warning C4018: '<' : signed/unsigned mismatch
+1>e:\duba\hookkifastcall.c(411) : warning C4018: '<' : signed/unsigned mismatch
+1>e:\duba\hookkifastcall.c(467) : warning C4022: '_ReleaseMemoryWithLength' : pointer mismatch for actual parameter 1
+1>e:\duba\hookkifastcall.c(470) : warning C4047: 'function' : 'PERESOURCE' differs in levels of indirection from 'int'
+1>e:\duba\hookkifastcall.c(470) : warning C4024: 'ExInitializeResourceLite' : different types for formal and actual parameter 1
+1>e:\duba\hookkifastcall.c(506) : warning C4047: '=' : 'char' differs in levels of indirection from 'char *'
+1>e:\duba\hookkifastcall.c(507) : warning C4047: '=' : 'char *' differs in levels of indirection from 'PKSEMAPHORE *'
+1>e:\duba\hookkifastcall.c(508) : warning C4047: '=' : 'char' differs in levels of indirection from 'char *'
+1>e:\duba\hookkifastcall.c(509) : warning C4047: '=' : 'char' differs in levels of indirection from 'char *'
+1>e:\duba\hookkifastcall.c(510) : warning C4133: '=' : incompatible types - from 'OWNER_ENTRY *' to 'char *'
+1>e:\duba\hookkifastcall.c(511) : warning C4047: '=' : 'char' differs in levels of indirection from 'char *'
+1>e:\duba\hookkifastcall.c(512) : warning C4047: '=' : 'char' differs in levels of indirection from 'char *'
+1>e:\duba\hookkifastcall.c(513) : warning C4133: '=' : incompatible types - from 'ULONG *' to 'char *'
+1>e:\duba\hookkifastcall.c(514) : warning C4047: '=' : 'char' differs in levels of indirection from 'char *'
+1>e:\duba\hookkifastcall.c(515) : warning C4047: '=' : 'char' differs in levels of indirection from 'char *'
+1>e:\duba\hookkifastcall.c(516) : warning C4133: '=' : incompatible types - from 'ULONG *' to 'char *'
+1>e:\duba\hookkifastcall.c(517) : warning C4047: '=' : 'char' differs in levels of indirection from 'char *'
+1>e:\duba\hookkifastcall.c(518) : warning C4047: '=' : 'char' differs in levels of indirection from 'char *'
+1>e:\duba\hookkifastcall.c(519) : warning C4047: '=' : 'char *' differs in levels of indirection from 'PVOID *'
+1>e:\duba\hookkifastcall.c(520) : warning C4047: '=' : 'char' differs in levels of indirection from 'char *'
+1>e:\duba\hookkifastcall.c(521) : warning C4047: '=' : 'char' differs in levels of indirection from 'char *'
+1>e:\duba\hookkifastcall.c(523) : warning C4133: '=' : incompatible types - from 'PERESOURCE' to '_LIST_ENTRY *'
+1>e:\duba\hookkifastcall.c(524) : warning C4133: '=' : incompatible types - from 'PERESOURCE' to '_LIST_ENTRY *'
+1>e:\duba\hookkifastcall.c(525) : warning C4047: '=' : 'char *' differs in levels of indirection from 'POWNER_ENTRY *'
+1>e:\duba\hookkifastcall.c(526) : warning C4047: '=' : 'char' differs in levels of indirection from 'char *'
+1>e:\duba\hookkifastcall.c(527) : warning C4047: '=' : 'char' differs in levels of indirection from 'char *'
+1>e:\duba\hookkifastcall.c(539) : warning C4047: 'function' : 'int **' differs in levels of indirection from '_ERESOURCE *'
+1>e:\duba\hookkifastcall.c(539) : warning C4024: 'sub_37B60' : different types for formal and actual parameter 1
+1>e:\duba\hookkifastcall.c(540) : warning C4133: 'function' : incompatible types - from 'POWNER_ENTRY *' to 'int **'
+1>e:\duba\hookkifastcall.c(541) : warning C4133: 'function' : incompatible types - from 'PKSEMAPHORE *' to 'int **'
+1>e:\duba\hookkifastcall.c(542) : warning C4047: 'function' : 'int **' differs in levels of indirection from 'OWNER_ENTRY *'
+1>e:\duba\hookkifastcall.c(542) : warning C4024: 'sub_37B60' : different types for formal and actual parameter 1
+1>e:\duba\hookkifastcall.c(543) : warning C4047: 'function' : 'int **' differs in levels of indirection from 'ULONG *'
+1>e:\duba\hookkifastcall.c(543) : warning C4024: 'sub_37B60' : different types for formal and actual parameter 1
+1>e:\duba\hookkifastcall.c(544) : warning C4047: 'function' : 'int **' differs in levels of indirection from 'ULONG *'
+1>e:\duba\hookkifastcall.c(544) : warning C4024: 'sub_37B60' : different types for formal and actual parameter 1
+1>e:\duba\hookkifastcall.c(545) : warning C4133: 'function' : incompatible types - from 'PVOID *' to 'int **'
+1>e:\duba\hookkifastcall.c(546) : warning C4047: 'function' : 'int **' differs in levels of indirection from '_ERESOURCE *'
+1>e:\duba\hookkifastcall.c(546) : warning C4024: 'sub_37B60' : different types for formal and actual parameter 1
+1>e:\duba\hookkifastcall.c(547) : warning C4133: 'function' : incompatible types - from 'POWNER_ENTRY *' to 'int **'
+1>e:\duba\hookkifastcall.c(555) : warning C4047: '!=' : 'int *' differs in levels of indirection from 'int **'
+1>e:\duba\hookkifastcall.c(559) : warning C4047: '=' : 'int *' differs in levels of indirection from 'int'
+1>e:\duba\hookkifastcall.c(566) : warning C4047: 'function' : 'int **' differs in levels of indirection from 'PUCHAR'
+1>e:\duba\hookkifastcall.c(566) : warning C4024: 'sub_38514' : different types for formal and actual parameter 1
+1>e:\duba\hookkifastcall.c(567) : warning C4047: 'function' : 'int **' differs in levels of indirection from 'PUCHAR'
+1>e:\duba\hookkifastcall.c(567) : warning C4024: 'sub_38514' : different types for formal and actual parameter 1
+1>e:\duba\hookkifastcall.c(568) : warning C4047: 'function' : 'int **' differs in levels of indirection from 'PUCHAR'
+1>e:\duba\hookkifastcall.c(568) : warning C4024: 'sub_38514' : different types for formal and actual parameter 1
+1>e:\duba\hookkifastcall.c(569) : warning C4047: 'function' : 'int **' differs in levels of indirection from 'PUCHAR'
+1>e:\duba\hookkifastcall.c(569) : warning C4024: 'sub_38514' : different types for formal and actual parameter 1
+1>e:\duba\hookkifastcall.c(570) : warning C4047: 'function' : 'int **' differs in levels of indirection from 'PUCHAR'
+1>e:\duba\hookkifastcall.c(570) : warning C4024: 'sub_37B60' : different types for formal and actual parameter 1
+1>e:\duba\hookkifastcall.c(571) : warning C4047: 'function' : 'int **' differs in levels of indirection from 'PUCHAR'
+1>e:\duba\hookkifastcall.c(571) : warning C4024: 'sub_37BB6' : different types for formal and actual parameter 1
+1>e:\duba\hookkifastcall.c(573) : warning C4022: '_ReleaseMemoryWithLength' : pointer mismatch for actual parameter 1
+1>e:\duba\hookkifastcall.c(581) : warning C4047: '!=' : 'int *' differs in levels of indirection from 'int **'
+1>e:\duba\hookkifastcall.c(585) : warning C4047: '=' : 'int *' differs in levels of indirection from 'int'
+1>e:\duba\hookkifastcall.c(595) : warning C4047: '!=' : 'int *' differs in levels of indirection from 'int **'
+1>e:\duba\hookkifastcall.c(599) : warning C4047: '=' : 'int *' differs in levels of indirection from 'int'
+1>e:\duba\hookkifastcall.c(607) : warning C4022: '_ReleaseMemoryWithLength' : pointer mismatch for actual parameter 1
+1>e:\duba\hookkifastcall.c(609) : warning C4022: '_ReleaseMemoryWithLength' : pointer mismatch for actual parameter 1
+1>e:\duba\hookkifastcall.c(668) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'PULONG_PTR'
+1>e:\duba\hookkifastcall.c(669) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'PULONG'
+1>e:\duba\hookkifastcall.c(671) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'PUCHAR'
+1>e:\duba\hookkifastcall.c(760) : warning C4133: 'function' : incompatible types - from 'BYTE *' to 'volatile LONG *'
+1>e:\duba\hookkifastcall.c(760) : warning C4047: 'function' : 'LONG' differs in levels of indirection from 'int (__stdcall *)(PCUNICODE_STRING)'
+1>e:\duba\hookkifastcall.c(760) : warning C4024: '_InterlockedExchange' : different types for formal and actual parameter 2
+1>e:\duba\hookkifastcall.c(760) : warning C4047: '=' : 'int (__stdcall *)(int)' differs in levels of indirection from 'LONG'
+1>e:\duba\hookkifastcall.c(774) : warning C4133: 'function' : incompatible types - from 'BYTE *' to 'volatile LONG *'
+1>e:\duba\hookkifastcall.c(774) : warning C4047: 'function' : 'LONG' differs in levels of indirection from 'int (__stdcall *)(int)'
+1>e:\duba\hookkifastcall.c(774) : warning C4024: '_InterlockedExchange' : different types for formal and actual parameter 2
+1>e:\duba\hookkifastcall.c(803) : warning C4047: '=' : 'int' differs in levels of indirection from 'PULONG'
+1>e:\duba\hookkifastcall.c(812) : warning C4047: 'function' : 'int' differs in levels of indirection from 'PCUNICODE_STRING'
+1>e:\duba\hookkifastcall.c(812) : warning C4024: 'dword_4C1AC' : different types for formal and actual parameter 1
+1>e:\duba\hookkifastcall.c(940) : warning C4047: '=' : 'BYTE *' differs in levels of indirection from 'int'
+1>e:\duba\hookkifastcall.c(955) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'BYTE *'
+1>e:\duba\hookkifastcall.c(984) : warning C4047: '=' : 'BYTE *' differs in levels of indirection from 'int'
+1>e:\duba\hookkifastcall.c(1023) : warning C4047: '=' : 'int' differs in levels of indirection from 'BYTE *'
+1>e:\duba\hookkifastcall.c(1047) : warning C4047: '=' : 'int (__stdcall *)()' differs in levels of indirection from 'PUCHAR'
+1>e:\duba\hookkifastcall.c(1051) : warning C4047: '=' : 'int (__stdcall *)(int,int)' differs in levels of indirection from 'int'
+1>e:\duba\hookkifastcall.c(1055) : warning C4020: 'sub_3BCA6' : too many actual parameters
+1>e:\duba\hookkifastcall.c(1049) : warning C4102: 'LABEL_5' : unreferenced label
+1>e:\duba\hookkifastcall.c(1074) : warning C4242: 'return' : conversion from 'LONGLONG' to 'int', possible loss of data
+1>e:\duba\hookkifastcall.c(1305) : warning C4047: 'function' : 'PCWSTR' differs in levels of indirection from 'WCHAR (*)[260]'
+1>e:\duba\hookkifastcall.c(1305) : warning C4024: '_CreateFileMap' : different types for formal and actual parameter 1
+1>e:\duba\hookkifastcall.c(1305) : warning C4047: 'function' : 'int' differs in levels of indirection from 'int *'
+1>e:\duba\hookkifastcall.c(1305) : warning C4024: '_CreateFileMap' : different types for formal and actual parameter 2
+1>e:\duba\hookkifastcall.c(1305) : warning C4047: 'function' : 'int' differs in levels of indirection from 'int *'
+1>e:\duba\hookkifastcall.c(1305) : warning C4024: '_CreateFileMap' : different types for formal and actual parameter 3
+1>e:\duba\hookkifastcall.c(1306) : warning C4018: '<' : signed/unsigned mismatch
+1>e:\duba\hookkifastcall.c(1325) : warning C4047: '=' : 'char *' differs in levels of indirection from 'unsigned long'
+1>e:\duba\hookkifastcall.c(1330) : warning C4047: '=' : 'int' differs in levels of indirection from 'char *'
+1>e:\duba\hookkifastcall.c(1330) : warning C4047: 'function' : 'int' differs in levels of indirection from 'char *'
+1>e:\duba\hookkifastcall.c(1330) : warning C4024: '_KisGetKiFastCallEntryEbxAddress' : different types for formal and actual parameter 1
+1>e:\duba\hookkifastcall.c(1345) : warning C4047: '<' : 'ULONG' differs in levels of indirection from 'PVOID'
+1>e:\duba\hookkifastcall.c(1349) : warning C4242: '=' : conversion from 'ULONG' to 'char', possible loss of data
+1>e:\duba\hookkifastcall.c(1352) : warning C4047: '=' : 'void *' differs in levels of indirection from 'unsigned long'
+1>e:\duba\hookkifastcall.c(1355) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\duba\hookkifastcall.c(1363) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'char *'
+1>e:\duba\hookkifastcall.c(1371) : warning C4022: 'MmIsAddressValid' : pointer mismatch for actual parameter 1
+1>e:\duba\hookkifastcall.c(1378) : warning C4242: '=' : conversion from 'ULONG' to 'char', possible loss of data
+1>e:\duba\hookkifastcall.c(1439) : warning C4018: '>' : signed/unsigned mismatch
+1>e:\duba\hookkifastcall.c(1444) : warning C4047: '=' : 'int (__fastcall *)(ULONG,ULONG)' differs in levels of indirection from 'BYTE *'
+1>e:\duba\hookkifastcall.c(1451) : warning C4133: 'function' : incompatible types - from 'BYTE *' to 'volatile LONG *'
+1>e:\duba\hookkifastcall.c(107) : warning C4716: 'sub_1742B' : must return a value
+1>e:\duba\hookkifastcall.c(1097) : warning C4716: 'sub_3BAAB' : must return a value

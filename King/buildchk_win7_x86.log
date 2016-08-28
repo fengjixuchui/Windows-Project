@@ -1,0 +1,19 @@
+BUILD: Computing Include file dependencies:
+BUILD: null byte at offset 0x00000001
+BUILD: 1283 null bytes in file
+BUILD: Examining e:\duba directory for files to compile.
+oacr invalidate root:x86chk /autocleanqueue
+BUILD: OACR: Command 'invalidate root:x86chk /autocleanqueue' failed
+BUILD: Unable to save the dependency database: d:\study\winddk\7600.16385.1\build.dat
+1>Compiling and Linking e:\duba *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+0>errors in directory e:\duba
+0>OACR: Command 'config root:x86chk' failed
+
+1>e:\duba: TARGETPATH is obj
+1> D:\Study\WINDDK\7600.16385.1\Bin\x86\oacr\oacrcl @e:\duba\objchk_win7_x86\i386\cl.rsp
+1>OACR ERROR : Cannot create directory 'd:\study\winddk\7600.16385.1\oacr\x86\'
+1>OACR ERROR : Cannot log event (Output::Log)
+1> D:\Study\WINDDK\7600.16385.1\Bin\x86\oacr\oacrlink /out:e:\duba\objchk_win7_x86\i386\Duba.sys /machine:ix86 @e:\duba\objchk_win7_x86\i386\lnk.rsp
+1>OACR ERROR : Cannot create directory 'd:\study\winddk\7600.16385.1\oacr\x86\'
+1>OACR ERROR : Cannot log event (Output::Log)

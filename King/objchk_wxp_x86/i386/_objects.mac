@@ -1,0 +1,21 @@
+
+
+386_OBJECTS=\
+ $(OBJ_PATH)\$O\duba.obj \
+ $(OBJ_PATH)\$O\getversion.obj \
+ $(OBJ_PATH)\$O\getmodules.obj \
+ $(OBJ_PATH)\$O\other.obj \
+ $(OBJ_PATH)\$O\hook.obj \
+ $(OBJ_PATH)\$O\hookkifastcall.obj \
+
+
+
+
+
+# lowercased
+BASEDIR=d:\study\winddk
+OBJECT_ROOT=d:\study\winddk
+MAKEDIR_LOWERCASE=e:\duba
+OBJ_PATH=e:\duba
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0
