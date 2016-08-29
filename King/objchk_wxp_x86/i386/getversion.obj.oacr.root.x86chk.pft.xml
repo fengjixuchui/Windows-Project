@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<DEFECTS>
-<OACRDEFECTCOUNT>4</OACRDEFECTCOUNT>
-<OACRERRORCOUNT>0</OACRERRORCOUNT>
-<DEFECT _seq="1"><SFA><LINE>21</LINE><COLUMN>22</COLUMN><FILENAME>getversion.c</FILENAME><FILEPATH>e:\duba\</FILEPATH></SFA><DEFECTCODE>28159</DEFECTCODE><DESCRIPTION>Consider using 'RtlGetVersion' instead of 'PsGetVersion'. Reason: Obsolete.</DESCRIPTION><FUNCTION>_GetSystemVersion</FUNCTION><FUNCLINE>13</FUNCLINE><PATH/></DEFECT>
-<DEFECT _seq="2"><SFA><LINE>146</LINE><COLUMN>71</COLUMN><FILENAME>getversion.c</FILENAME><FILEPATH>e:\duba\</FILEPATH></SFA><DEFECTCODE>28159</DEFECTCODE><DESCRIPTION>Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..</DESCRIPTION><FUNCTION>_GetServicePackNumber</FUNCTION><FUNCLINE>100</FUNCLINE><PATH/></DEFECT>
-<DEFECT _seq="3"><SFA><LINE>260</LINE><COLUMN>19</COLUMN><FILENAME>getversion.c</FILENAME><FILEPATH>e:\duba\</FILEPATH></SFA><DEFECTCODE>28175</DEFECTCODE><DESCRIPTION>The 'DriverStart' member of _DRIVER_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.</DESCRIPTION><FUNCTION>Asm_4211A</FUNCTION><FUNCLINE>255</FUNCLINE><PATH/></DEFECT>
-<DEFECT _seq="4"><SFA><LINE>278</LINE><COLUMN>19</COLUMN><FILENAME>getversion.c</FILENAME><FILEPATH>e:\duba\</FILEPATH></SFA><DEFECTCODE>28175</DEFECTCODE><DESCRIPTION>The 'DriverStart' member of _DRIVER_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.</DESCRIPTION><FUNCTION>Asm_42363</FUNCTION><FUNCLINE>273</FUNCLINE><PATH/></DEFECT>
-</DEFECTS>
