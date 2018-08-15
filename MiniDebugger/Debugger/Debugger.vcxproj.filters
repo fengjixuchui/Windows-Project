@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="PECheck">
+      <UniqueIdentifier>{9b6ebdf9-80f8-418d-9a96-96ce7ead3736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="分发">
+      <UniqueIdentifier>{5dfbfde6-ae13-4e97-b7ec-e198c7679b5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主文件">
+      <UniqueIdentifier>{57801ac8-d140-408d-8be7-215787adac9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="处理异常请求">
+      <UniqueIdentifier>{f7af739d-5ab3-44ec-9ac3-38e185036187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="二进制文件">
+      <UniqueIdentifier>{d37444ad-22fb-43ff-8caa-7e50c4a94820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BreakPoint">
+      <UniqueIdentifier>{1dfc78a9-26a0-4d66-879b-bc150786dbd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{ed71eeac-701c-41f9-985e-d9ae6f0695b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="寄存器">
+      <UniqueIdentifier>{a03c58b6-4e48-4f96-b688-57c231a984be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="显示源文件">
+      <UniqueIdentifier>{7ba9b86d-0721-4db9-bcea-965cc83104e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="汇编引擎">
+      <UniqueIdentifier>{c852698b-26d6-4bad-a4ef-ceafef0abef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="符号处理">
+      <UniqueIdentifier>{408813b3-eaea-47a5-b490-d7f2866fce74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\Debugger.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Debugger.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\PEAnalysisx86.exe">
+      <Filter>Common</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Debugger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PECheck.h">
+      <Filter>PECheck</Filter>
+    </ClInclude>
+    <ClInclude Include="DealDebugEvent.h">
+      <Filter>处理异常请求</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowDumpText.h">
+      <Filter>二进制文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakPoint.h">
+      <Filter>BreakPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Flags.h">
+      <Filter>寄存器</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowOrgFile.h">
+      <Filter>显示源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DeAsmEngine.h">
+      <Filter>汇编引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="DispatchException.h">
+      <Filter>分发</Filter>
+    </ClInclude>
+    <ClInclude Include="DebuggerMainDlg.h">
+      <Filter>主文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Symbol.h">
+      <Filter>符号处理</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Debugger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PECheck.cpp">
+      <Filter>PECheck</Filter>
+    </ClCompile>
+    <ClCompile Include="DealDebugEvent.cpp">
+      <Filter>处理异常请求</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowDumpText.cpp">
+      <Filter>二进制文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakPoint.cpp">
+      <Filter>BreakPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Flags.cpp">
+      <Filter>寄存器</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowOrgFile.cpp">
+      <Filter>显示源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DeAsmEngine.cpp">
+      <Filter>汇编引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="DispatchException.cpp">
+      <Filter>分发</Filter>
+    </ClCompile>
+    <ClCompile Include="DebuggerMainDlg.cpp">
+      <Filter>主文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Symbol.cpp">
+      <Filter>符号处理</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Debugger.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+#pragma once
+
+void byteArr2HexStr(const LPBYTE& lpbArr,DWORD dwBSize,TCHAR* pszHexStr,const TCHAR wcSpace);
+enum PETYPE
+{
+	PE = 0,
+	PE64,
+	Unkonw
+};
+VOID HighLight(SIZE_T Addr,const WCHAR* ShowOpc,const WCHAR* FileCode,const WCHAR* pszCom);
+
+#define STATUS_NONE 1
+#define STATUS_SUSPENDED 2
+#define STATUS_INTERRUPTED 3
+
+// ◊÷ÃÂ—’…´
+#define F_BLUE     0x0001						// …Ó¿∂
+#define F_H_BLUE   0x0001|0x0008				// ¡¡¿∂
+#define F_GREEN    0x0002						// …Ó¬Ã
+#define F_H_GREEN  0x0002|0x0008				// ¡¡¬Ã
+#define F_RED      0x0004						// …Ó∫Ï  
+#define F_H_RED    0x0004|0x0008				// ¡¡∫Ï
+#define F_YELLOW   0x0002|0x0004				// …Óª∆
+#define F_H_YELLOW 0x0002|0x0004|0x0008			// ¡¡ª∆
+#define F_PURPLE   0x0001|0x0004				// …Ó◊œ
+#define F_H_PURPLE 0x0001|0x0004|0x0008			// ¡¡◊œ
+#define F_WHITE    0x0004|0x0002|0x0001			// ª“∞◊
+#define F_H_WHITE  0x0004|0x0002|0x0001|0x0008	// ¡¡∞◊
+#define F_H_LIGHTBLUE 0x0003|0x0008				// ¡¡«‡	
+// ±≥æ∞—’…´
+#define B_BLUE     0x0010						// …Ó¿∂
+#define B_H_BLUE   0x0010|0x0080				// ¡¡¿∂
+#define B_GREEN    0x0020						// …Ó¬Ã
+#define B_H_GREEN  0x0020|0x0080				// ¡¡¬Ã
+#define B_RED      0x0040						// …Ó∫Ï
+#define B_H_RED    0x0040|0x0080				// ¡¡∫Ï
+#define B_YELLOW   0x0020|0x0040				// …Óª∆
+#define B_H_YELLOW 0x0020|0x0040|0x0080			// ¡¡ª∆
+#define B_PURPLE   0x0010|0x0040				// …Ó◊œ
+#define B_H_PURPLE 0x0010|0x0040|0x0080			// ¡¡◊œ
+#define B_WHITE    0x0010|0x0020|0x0040			// ª“∞◊
+#define B_H_WHITE  0x0010|0x0020|0x0040|0x0080	// ¡¡∞◊
+#define B_H_LIGHTBLUE 0x0003|0x0008||0x0080		// ¡¡«‡	
+#define REVERSE    COMMON_LVB_REVERSE_VIDEO		// ∑¥…´
