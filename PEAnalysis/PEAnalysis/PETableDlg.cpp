@@ -436,7 +436,7 @@ VOID
 
 	CString																	strFuncName,strDllName;
 	CString																	strIndex = 0;
-
+	CString																	strFuncRVA;
 
 	while(m_ListTable.DeleteColumn(0));
 	m_ListTable.DeleteAllItems();
@@ -507,9 +507,9 @@ VOID
 							strFuncName = FuncName;						
 
 							ulFuncRVA = (ULONG_PTR)((ULONG_PTR)szFileData + RVATwoOffset(NtHeader32,ImportOriFirstThunk32->u1.ForwarderString));
-
+							strFuncRVA.Format(L"0x%x",ulFuncRVA);
 							m_ListTable.SetItemText(j,1,strFuncName);			
-
+							m_ListTable.SetItemText(j,2,strFuncRVA);
 						}
 
 						m_ListTable.SetItemText(j,3,strDllName);
@@ -566,6 +566,12 @@ VOID
 						OrdinalName = (PIMAGE_IMPORT_BY_NAME)((ULONG_PTR)szFileData + RVATwoOffset64(NtHeader64,ImportOriFirstThunk64->u1.AddressOfData));
 						char* FuncName = (char*)OrdinalName->Name;
 						strFuncName = FuncName;						
+
+						ulFuncRVA = (ULONG_PTR)((ULONG_PTR)szFileData + RVATwoOffset64(NtHeader64,ImportOriFirstThunk64->u1.ForwarderString));
+						strFuncRVA.Format(L"0x%x",ulFuncRVA);
+						m_ListTable.SetItemText(j,1,strFuncName);			
+						m_ListTable.SetItemText(j,2,strFuncRVA);
+
 						m_ListTable.SetItemText(j,1,strFuncName);						
 					}
 
@@ -765,7 +771,7 @@ VOID
 DWORD RVATwoOffset(PIMAGE_NT_HEADERS32 NTHeader, ULONG ulRVA)   
 {
     PIMAGE_SECTION_HEADER SectionHeader =
-		(PIMAGE_SECTION_HEADER)((ULONG)NTHeader + sizeof(IMAGE_NT_HEADERS));  //获得节表  
+		(PIMAGE_SECTION_HEADER)((ULONG)NTHeader + sizeof(IMAGE_NT_HEADERS32));  //获得节表  
 	
     for(int i = 0; i < NTHeader->FileHeader.NumberOfSections; i++)
     {

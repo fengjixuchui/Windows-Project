@@ -57,7 +57,7 @@ BOOL CPEHeaderDlg::OnInitDialog()
 	// 异常: OCX 属性页应返回 FALSE
 }
 
-
+#define IMAGE_FILE_MACHINE_ARM64  0xAA64
 
 VOID CPEHeaderDlg::CheckPEHeader()
 {
@@ -94,7 +94,7 @@ VOID CPEHeaderDlg::CheckPEHeader()
 	m_EditSizeOfOption.Format(L"0x%x",FileHead.SizeOfOptionalHeader);
 
 
-	if (FileHead.Machine == IMAGE_FILE_MACHINE_IA64||FileHead.Machine == IMAGE_FILE_MACHINE_AMD64)
+	if (FileHead.Machine == IMAGE_FILE_MACHINE_IA64||FileHead.Machine == IMAGE_FILE_MACHINE_AMD64 ||FileHead.Machine == IMAGE_FILE_MACHINE_ARM64)
 	{
 		FileKind = 64;
 

@@ -39,6 +39,7 @@ BOOL
 	return TRUE;
 }
 
+#define IMAGE_FILE_MACHINE_ARM64  0xAA64
 BOOL
 	IsPEFile(CHAR* szFileData,PETYPE* PeType)
 {
@@ -52,7 +53,7 @@ BOOL
 		return FALSE;
 	}
 
-	NtHead = (PIMAGE_NT_HEADERS)((ULONG)szFileData+DosHead->e_lfanew);
+	NtHead = (PIMAGE_NT_HEADERS)((ULONG_PTR)szFileData+DosHead->e_lfanew);
 
 	if (NtHead->Signature!=IMAGE_NT_SIGNATURE) //PE
 	{
@@ -64,6 +65,7 @@ BOOL
 	{
 	case IMAGE_FILE_MACHINE_IA64:
 	case IMAGE_FILE_MACHINE_AMD64:
+    case IMAGE_FILE_MACHINE_ARM64:
 		*PeType = PE64;
 		break;
 
