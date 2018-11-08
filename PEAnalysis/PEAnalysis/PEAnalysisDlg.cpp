@@ -226,7 +226,7 @@ void CPEAnalysisDlg::OnDropFiles(HDROP hDropInfo)
 	if(LoadFileData(m_FilePath,&m_szFileData,&m_ulLow)==FALSE)
 	{
 		free(m_szFileData);
-		return ;
+		goto END;
 	}
 
 	g_szFileData = m_szFileData;
@@ -234,8 +234,7 @@ void CPEAnalysisDlg::OnDropFiles(HDROP hDropInfo)
 	if(IsPEFile(m_szFileData,&PeType)==FALSE)
 	{
 		MessageBox(L"不是PE文件",L"PECheck",0);
-
-		return;
+		goto END;
 	}
 
 	switch(PeType)

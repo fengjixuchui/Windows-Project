@@ -35,7 +35,7 @@ BOOL
 		return FALSE;
 	}
 
-
+    CloseHandle(hFile);
 	return TRUE;
 }
 
