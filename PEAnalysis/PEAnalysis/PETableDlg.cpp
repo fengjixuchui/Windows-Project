@@ -5,7 +5,7 @@
 #include "PEAnalysis.h"
 #include "PETableDlg.h"
 #include "afxdialogex.h"
-
+#include <strsafe.h>
 #define MakePtr(a,b,c) ((a)((char*)b+c))
 
 extern
@@ -244,11 +244,14 @@ VOID
 
 				 strRVA.Format(L"0x%X",DataDirTable);
 				 strSize.Format(L"0x%X",DataSize);
-				 strSection = SectionHeader->Name;
+				 CHAR szSectionName[50] = {0};
+                 HRESULT r = StringCchCopyA(szSectionName, IMAGE_SIZEOF_SHORT_NAME+1, (char*)SectionHeader->Name);
+
+                 strSection = szSectionName;
 				 strRaw.Format(L"0x%X",DataRaw);
 
 				 int n = m_ListTable.GetItemCount();
-				int j = m_ListTable.InsertItem(n, wzDirTable[i]);
+				 int j = m_ListTable.InsertItem(n, wzDirTable[i]);
 				 m_ListTable.SetItemText(j, 1, strRVA);
 				 m_ListTable.SetItemText(j, 2, strSize);
 				 m_ListTable.SetItemText(j,3,strRaw);
@@ -277,14 +280,17 @@ VOID
 
 				strRVA.Format(L"0x%X",DataDirTable);
 				strSize.Format(L"0x%X",DataSize);
-				strSection = SectionHeader->Name;
+				CHAR szSectionName[50] = {0};
+                HRESULT r = StringCchCopyA(szSectionName, IMAGE_SIZEOF_SHORT_NAME+1, (char*)SectionHeader->Name);
+
+                strSection = szSectionName;
 				strRaw.Format(L"0x%X",DataRaw);
 
 				int n = m_ListTable.GetItemCount();
 				int j = m_ListTable.InsertItem(n, wzDirTable[i]);
 				m_ListTable.SetItemText(j, 1, strRVA);
 				m_ListTable.SetItemText(j, 2, strSize);
-				 m_ListTable.SetItemText(j,3,strRaw);
+				m_ListTable.SetItemText(j,3,strRaw);
 				m_ListTable.SetItemText(j,4,strSection);
 
 			}
@@ -390,7 +396,10 @@ VOID
 
 	for (int i = 0;i<FileHeader.NumberOfSections;i++,SectionHeader++)
 	{
-		SectionName = SectionHeader->Name;
+		CHAR szSectionName[50] = {0};
+        HRESULT r = StringCchCopyA(szSectionName, IMAGE_SIZEOF_SHORT_NAME+1, (char*)SectionHeader->Name);
+
+        SectionName = szSectionName;
 		strRVA.Format(L"0x%x",SectionHeader->VirtualAddress);
 		strRSize.Format(L"0x%x",SectionHeader->Misc.VirtualSize);
 
