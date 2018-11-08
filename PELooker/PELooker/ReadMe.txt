@@ -1,0 +1,1 @@
+PE section is IMAGE_SCN_MEM_SHARED Characteristics.
